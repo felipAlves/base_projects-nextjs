@@ -9,7 +9,7 @@ const Home = (): JSX.Element => {
   if (!data) {
     return (
       <p>
-        Carregando <Spinner />
+        Carregando... <Spinner />
       </p>
     )
   }
