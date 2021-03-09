@@ -1,5 +1,5 @@
 import React from 'react'
-import ThemeContainer from '../contexts/theme/ThemeContainer'
+import ThemeContainer from '../../contexts/theme/ThemeContainer'
 
 import { AppProps } from 'next/app'
 

@@ -1,0 +1,9 @@
+{
+    "appointments": [
+        { "id": 1, "title": "First title", "description": "lorem ipsum est re liu" },
+        { "id": 2, "title": "First title", "description": "lorem ipsum est re liu" },
+        { "id": 3, "title": "First title", "description": "lorem ipsum est re liu" },
+        { "id": 4, "title": "First title", "description": "lorem ipsum est re liu" },
+        { "id": 5, "title": "First title", "description": "lorem ipsum est re liu" }
+    ]
+}
