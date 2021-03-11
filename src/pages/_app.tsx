@@ -1,13 +1,16 @@
 import React from 'react'
-import ThemeContainer from '../../contexts/theme/ThemeContainer'
-
 import { AppProps } from 'next/app'
+import { ThemeProvider } from 'styled-components'
 
-const MyApp = ({ Component, pageProps }: AppProps): JSX.Element => {
+import GlobalStyle from '../styles/global'
+import theme from '../styles/theme'
+
+const MyApp: React.FC<AppProps> = ({ Component, pageProps }) => {
   return (
-    <ThemeContainer>
+    <ThemeProvider theme={theme}>
       <Component {...pageProps} />
-    </ThemeContainer>
+      <GlobalStyle />
+    </ThemeProvider>
   )
 }
 
