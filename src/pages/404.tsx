@@ -1,0 +1,4 @@
+import React from 'react'
+const Custom404 = () => <div>404 Page not Found</div>
+
+export default Custom404
