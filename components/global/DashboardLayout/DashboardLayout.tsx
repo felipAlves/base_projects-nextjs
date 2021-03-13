@@ -1,6 +1,6 @@
 import React from 'react'
-import { DashboardLayoutStyled } from '../../src/styles/global/DashboardLayout'
-import { LayoutStyled } from '../../src/styles/global/Layout'
+import { DashboardLayoutStyled } from '../../../src/styles/global/DashboardLayout'
+import { LayoutStyled } from '../../../src/styles/global/Layout'
 
 interface IPropsLayout {
   children: JSX.Element | JSX.Element[]

@@ -6,6 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
+    "test": "jest --watch",
+    "coverage": "jest --coverage",
     "server-json": "json-server --watch -d 1000 -p 3333 db.json"
   },
   "dependencies": {
@@ -19,10 +21,15 @@
     "swr": "^0.5.2"
   },
   "devDependencies": {
+    "@babel/core": "^7.13.10",
+    "@testing-library/jest-dom": "^5.11.9",
+    "@testing-library/react": "^11.2.5",
+    "@types/jest": "^26.0.20",
     "@types/node": "^14.6.0",
     "@types/react": "^16.9.46",
     "@typescript-eslint/eslint-plugin": "^3.9.1",
     "@typescript-eslint/parser": "^3.9.1",
+    "babel-jest": "^26.6.3",
     "babel-plugin-inline-react-svg": "^1.1.1",
     "eslint": "^7.7.0",
     "eslint-config-prettier": "^6.11.0",
@@ -33,6 +40,7 @@
     "eslint-plugin-promise": "^4.2.1",
     "eslint-plugin-react": "^7.20.6",
     "eslint-plugin-standard": "^4.0.1",
+    "jest": "^26.6.3",
     "prettier": "^2.1.0",
     "typescript": "^3.9.7"
   }

@@ -1,11 +1,11 @@
-import React, { useState } from 'react'
+import React from 'react'
 import { AppProps } from 'next/app'
 import { ThemeProvider } from 'styled-components'
 
 import GlobalStyle from '../styles/global'
 import theme from '../styles/theme'
 import { Layout } from '../../components/global/Layout'
-import { DashboardLayout } from '../../components/global/DashboardLayout'
+import { DashboardLayout } from '../../components/global/DashboardLayout/DashboardLayout'
 
 const MyApp: React.FC<AppProps> = ({ Component, pageProps, router }) => {
   console.log()
