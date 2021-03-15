@@ -7,6 +7,7 @@ import TableCell from '@material-ui/core/TableCell'
 import TableHead from '@material-ui/core/TableHead'
 import TableRow from '@material-ui/core/TableRow'
 import Paper from '@material-ui/core/Paper'
+import { Container } from '../../components/global/LayoutComponents/Container'
 const useStyles = makeStyles({
   root: {
     width: '100%',
@@ -59,11 +60,5 @@ const Home = (): JSX.Element => {
     </Container>
   )
 }
-const Container = styled.div`
-  width: 960px;
-  height: 100vh;
-  margin: 2rem auto;
-  padding: 2rem;
-  background: #f2f2f2;
-`
+
 export default Home
