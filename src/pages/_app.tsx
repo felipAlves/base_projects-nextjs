@@ -8,7 +8,6 @@ import { Layout } from '../../components/global/Layout'
 import { DashboardLayout } from '../../components/global/DashboardLayout/DashboardLayout'
 
 const MyApp: React.FC<AppProps> = ({ Component, pageProps, router }) => {
-  console.log()
   if (router.pathname.startsWith('/dashboard/')) {
     return (
       <ThemeProvider theme={theme}>
